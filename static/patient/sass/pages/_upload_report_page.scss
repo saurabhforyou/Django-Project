@@ -1,0 +1,27 @@
+.p_head {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.label_b {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#file-chosen {
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+}
+
+.btn-label {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}

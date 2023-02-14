@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* this will make it easy for us to calculate rem  */
+  //   this defines what 1 rem is
+  font-size: 62.5%; //1 rem = 10px, 10px/16 = 62.5%
+  @include respond(tab-land) {
+    font-size: 56.25%; //1 rem = 9px, 9px/16 = 56.25%
+  }
+  @include respond(tab-port) {
+    font-size: 50%; //1 rem = 8px, 8px/16 = 50%
+  }
+  @include respond(phone) {
+    font-size: 45%;
+  }
+  @include respond(big-desk) {
+    font-size: 70%; //1 rem =12px, 12/16 = 75%
+  }
+}
+
+body {
+  box-sizing: border-box;
+  // padding: 2rem;
+}
+
+::selection {
+  background-color: $color-primary-light;
+  color: $color-white;
+}

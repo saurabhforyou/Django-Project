@@ -1,0 +1,538 @@
+{
+    "HAEMOGLOBIN": [
+        12.0,
+        15.0
+    ],
+    "TOTAL LEUCOCYTE COUNT (WBC)": [
+        4000.0,
+        11000.0
+    ],
+    "RED BLOOD CELL COUNT": [
+        3.8,
+        4.8
+    ],
+    "PACKED CELL VOLUME( HEMATOCRIT)": [
+        36.0,
+        46.0
+    ],
+    "MEAN CORPUSCULAR VOLUME (MCV)": [
+        83.0,
+        101.0
+    ],
+    "MEAN CORPUSULAR HB (MCH)": [
+        27.0,
+        32.6
+    ],
+    "MEAN CORPUSULAR HB CONC (MCHC)": [
+        31.5,
+        34.5
+    ],
+    "MEAN PLATELETS VOLUME (MPV )": [
+        6.5,
+        12.0
+    ],
+    "HEMOGLOBIN DISTRIBUTION WIDTH (HDW)": [
+        null,
+        null
+    ],
+    "CORPUSCULAR HAEMOGLOBIN": [
+        null,
+        null
+    ],
+    "CHCM": [
+        null,
+        null
+    ],
+    "PLATELET DISTRIBUTION WIDTH(PDW)": [
+        null,
+        null
+    ],
+    "PCT": [
+        null,
+        null
+    ],
+    "PLATELET COUNT": [
+        150.0,
+        410.0
+    ],
+    "ESR": [
+        0.0,
+        20.0
+    ],
+    "NEUTROPHILS %": [
+        44.0,
+        68.0
+    ],
+    "LYMPHOCYTES %": [
+        20.0,
+        40.0
+    ],
+    "MONOCYTES %": [
+        2.0,
+        10.0
+    ],
+    "EOSINOPHILS %": [
+        1.0,
+        6.0
+    ],
+    "BASOPHILS %": [
+        null,
+        null
+    ],
+    "LARGE UNSTAINED CELLS (LUC)": [
+        null,
+        null
+    ],
+    "RED CELL DISTRIBUTION WIDTH (RDW-CV)": [
+        11.6,
+        14.0
+    ],
+    "RDW-SD": [
+        39.0,
+        46.0
+    ],
+    "NEUTROPHILS": [
+        2000.0,
+        7000.0
+    ],
+    "LYMPHOCYTES": [
+        null,
+        null
+    ],
+    "MONOCYTES": [
+        null,
+        null
+    ],
+    "ABSOLUTE EOSINOPHILS COUNT  %": [
+        null,
+        null
+    ],
+    "BASOPHILS": [
+        null,
+        null
+    ],
+    "CHOLESTEROL": [
+        80.0,
+        200.0
+    ],
+    "TRIGLYCERIDES": [
+        40.0,
+        150.0
+    ],
+    "H.D.L. CHOLESTEROL": [
+        40.0,
+        70.0
+    ],
+    "L.D.L. CHOLESTEROL (DIRECT)": [
+        88.11,
+        88.11
+    ],
+    "SERUM VLDL CHOLESTEROL": [
+        24.0,
+        45.0
+    ],
+    "NON H.D.L. CHOLESTEROL": [
+        null,
+        null
+    ],
+    "SERUM CHOLESTEROL-HDL RATIO": [
+        0.0,
+        4.0
+    ],
+    "LDL/HDL CHOLESTEROL RATIO": [
+        0.0,
+        3.0
+    ],
+    "UREA": [
+        12.0,
+        45.0
+    ],
+    "BLOOD UREA NITROGEN (BUN)": [
+        8.4,
+        21.0
+    ],
+    "CREATININE, SERUM": [
+        0.5,
+        0.9
+    ],
+    "URIC ACID": [
+        2.4,
+        5.7
+    ],
+    "UREA / CREATININE RATIO": [
+        null,
+        null
+    ],
+    "BUN / CREATININE RATIO": [
+        null,
+        null
+    ],
+    "CYSTATIN C": [
+        0.0,
+        1.5
+    ],
+    "BLOOD KETONE": [
+        0.21,
+        2.81
+    ],
+    "IONIZED CALCIUM": [
+        null,
+        null
+    ],
+    "TOTAL CALCIUM": [
+        8.6,
+        10.0
+    ],
+    "ZINC, SERUM": [
+        null,
+        null
+    ],
+    "MERCURY": [
+        0.0,
+        5.0
+    ],
+    "CAESIUM": [
+        0.0,
+        5.0
+    ],
+    "BERYLLIUM": [
+        0.1,
+        0.8
+    ],
+    "ARSENIC": [
+        null,
+        null
+    ],
+    "PHOSPHORUS": [
+        null,
+        null
+    ],
+    "SODIUM": [
+        130.0,
+        149.0
+    ],
+    "POTTASIUM": [
+        3.5,
+        5.0
+    ],
+    "CHLORIDE": [
+        97.0,
+        107.0
+    ],
+    "MAGNESIUM": [
+        null,
+        null
+    ],
+    "BILIRUBIN (TOTAL)": [
+        0.0,
+        1.2
+    ],
+    "BILIRUBIN (DIRECT)": [
+        0.0,
+        0.3
+    ],
+    "BILIRUBIN (INDIRECT)": [
+        0.0,
+        0.7
+    ],
+    "S.G.O.T.": [
+        1.0,
+        32.0
+    ],
+    "S.G.P.T.": [
+        2.0,
+        33.0
+    ],
+    "ALKALINE PHOSPHATASE": [
+        112.2,
+        112.2
+    ],
+    "G.G.T.P.": [
+        5.0,
+        36.0
+    ],
+    "IRON SERUM": [
+        50.0,
+        170.0
+    ],
+    "SERUM TOTAL PROTEINS": [
+        6.4,
+        8.3
+    ],
+    "SERUM ALBUMIN": [
+        3.5,
+        5.2
+    ],
+    "SERUM GLOBULIN": [
+        2.0,
+        3.5
+    ],
+    "GLOBULIN": [
+        1.8,
+        3.6
+    ],
+    "PANCREATIC ALFA AMYLASE": [
+        null,
+        null
+    ],
+    "C.P.K.": [
+        null,
+        null
+    ],
+    "IMMUNOGLOUBLIN lgG, SERUM": [
+        null,
+        null
+    ],
+    "IMMUNOGLOUBLIN lgM, SERUM": [
+        null,
+        null
+    ],
+    "IMMUNOGLOUBLIN lgE, SERUM": [
+        null,
+        null
+    ],
+    "IMMUNOGLOUBLIN lgA, SERUM": [
+        null,
+        null
+    ],
+    "IRON": [
+        null,
+        null
+    ],
+    "TOTAL IRON BINDING CAPACITY (TIBC)": [
+        null,
+        null
+    ],
+    "TRANSFEERRIN": [
+        null,
+        null
+    ],
+    "TRANSFERRIN SATURATION": [
+        16.0,
+        50.0
+    ],
+    "UNSATURATED IRON BINDING CAPACITY (UIBC)": [
+        null,
+        null
+    ],
+    "FERRITIN, SERUM": [
+        null,
+        null
+    ],
+    "TRANSFERRIN": [
+        200.0,
+        360.0
+    ],
+    "FREE TRIJODOTHYRONINE [FT3],Serum": [
+        3.1,
+        6.8
+    ],
+    "FREE THYROXINE [FT4],Serum": [
+        12.0,
+        22.0
+    ],
+    "T.S.H.[ULTRA]": [
+        0.55,
+        4.78
+    ],
+    "ANTI- THYROGLOBULIN ANTIBODIES": [
+        null,
+        null
+    ],
+    "ANTI- THYROID PEROXIDASE": [
+        null,
+        null
+    ],
+    "TESTOSTERONE LEVEL (TOTAL)": [
+        null,
+        null
+    ],
+    "ESTRADIOL LEVEL": [
+        null,
+        null
+    ],
+    "CORTISOL LEVEL(Morning)": [
+        null,
+        null
+    ],
+    "ENHANCED ESTRADIOL ( eE2)": [
+        null,
+        null
+    ],
+    "PARATHYROID HORMONE LEVEL , SERUM": [
+        null,
+        null
+    ],
+    "VITAMIN B-12 LEVEL, SERUM(ECLIA)": [
+        null,
+        null
+    ],
+    "VITAMIN D-3 LEVEL, SERUM (ECLIA)": [
+        null,
+        null
+    ],
+    "VITAMIN D": [
+        30.0,
+        100.0
+    ],
+    "FOLIC ACID LEVEL": [
+        null,
+        null
+    ],
+    "25-OH VITAMIN D": [
+        30.0,
+        100.0
+    ],
+    "FOLATE": [
+        null,
+        null
+    ],
+    "AVG SUGAR": [
+        null,
+        null
+    ],
+    "BLOOD GLUCOSE (FASTING)": [
+        60.0,
+        100.0
+    ],
+    "HBA1C": [
+        null,
+        null
+    ],
+    "MEAN PLASMA GLUCOSE": [
+        null,
+        null
+    ],
+    "INSULIN LEVEL ( FASTING ) PLASMA": [
+        null,
+        null
+    ],
+    "INSULIN LEVEL ( POSTPRANDOIAL ) PLASMA": [
+        null,
+        null
+    ],
+    "AVERAGE BLOOD GLUCOSE (ABG)": [
+        90.0,
+        120.0
+    ],
+    "LIPASE": [
+        null,
+        null
+    ],
+    "FASTING BLOOD SUGAR": [
+        70.0,
+        99.0
+    ],
+    "PACKED CELL VOLUME (HEMATOCRIT)": [
+        36.0,
+        46.0
+    ],
+    "RED CELL DISTRIBUTION WIDTH (RDW)": [
+        11.5,
+        15.5
+    ],
+    "EOSINOPHILS": [
+        0.0,
+        450.0
+    ],
+    "VLDL CHOLESTEROL SERUM": [
+        10.0,
+        30.0
+    ],
+    "CHOLESTEROL-HDL RATIO,Serum": [
+        null,
+        null
+    ],
+    "BUN(BLOOD UREA NITROGN),Serum": [
+        4.7,
+        23.4
+    ],
+    "IONIZED CALCIUM,Serum": [
+        1.1,
+        1.25
+    ],
+    "POTASSIUM": [
+        3.5,
+        5.0
+    ],
+    "ALBUMIN,Serum": [
+        3.5,
+        5.2
+    ],
+    "GLOBULIN,Serum": [
+        2.0,
+        3.5
+    ],
+    "ALBUMIN/GLOBULIN RATIO,Serum": [
+        1.1,
+        2.2
+    ],
+    "T.S.H.[ULTRASENSITIVE]": [
+        0.27,
+        4.2
+    ],
+    "CORTISOL LEVEL": [
+        6.02,
+        18.4
+    ],
+    "FOLIC ACID LEVEL, Serum": [
+        3.1,
+        20.5
+    ],
+    "VITAMIN D, 25 - HYDROXY, SERUM": [
+        25.0,
+        100.0
+    ],
+    "GLUCOSE, FASTING": [
+        60.0,
+        100.0
+    ],
+    "HAEMOGLOBIN HBA1C": [
+        4.4,
+        6.4
+    ],
+    "CHOLESTEROL-TRIGLYCERIDE RATIO,Serum": [
+        null,
+        null
+    ],
+    "lgE LEVEL, SERUM": [
+        5.0,
+        100.0
+    ],
+    "C.P.K.Serum": [
+        26.0,
+        192.0
+    ],
+    "AMYLASE,Serum": [
+        28.0,
+        100.0
+    ],
+    "C-REACTIVE PROTEINS": [
+        0.0,
+        0.5
+    ],
+    "ZINC,Serum": [
+        65.0,
+        256.0
+    ],
+    "Lipoprotein Lavel,serum": [
+        0.0,
+        30.0
+    ],
+    "Apolipoprotein (Apo A1)": [
+        108.0,
+        225.0
+    ],
+    "Apolipoprotein (Apo B)": [
+        60.0,
+        117.0
+    ],
+    "Apo-A1/APO-B": [
+        null,
+        null
+    ],
+    "HOMOCYSTEINE": [
+        5.0,
+        15.0
+    ]
+}

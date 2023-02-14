@@ -1,0 +1,99 @@
+<a href="{% url 'home' %}"><b><h3>Return Home</h3></b></a>
+
+<body bgcolor="#D6EAF8">
+
+<table>
+<thead>
+<tr>
+<th>Label</th>
+    {% if row_wise_table.documents.1.uploaded_at %}
+    <th>{{row_wise_table.documents.1.uploaded_at}}</th>
+    {% endif %}
+
+    {% if row_wise_table.documents.2.uploaded_at %}
+    <th>{{row_wise_table.documents.2.uploaded_at}}</th>
+    {% endif %}
+
+    {% if row_wise_table.documents.3.uploaded_at %}
+    <th>{{row_wise_table.documents.3.uploaded_at}}</th>
+    {% endif %}
+
+    {% if row_wise_table.documents.4.uploaded_at %}
+    <th>{{row_wise_table.documents.4.uploaded_at}}</th>
+    {% endif %}
+
+    {% if row_wise_table.documents.5.uploaded_at %}
+    <th>{{row_wise_table.documents.5.uploaded_at}}</th>
+    {% endif %}
+
+    <th>Compare</th>
+</tr>
+</thead>
+<tbody>
+{% for category in row_wise_table.documents.all_category %}
+            <tr><td><h3><b>{{category}}<b><h3></td></tr>
+    {% for key, val in row_wise_table.items %}
+            {% if val.5.category == category or val.4.category == category or val.3.category == category or val.2.category == category or val.1.category == category %}
+<tr>
+ <td>{{key}}</td>
+    {% if row_wise_table.documents.1.uploaded_at %}
+        {% if val.1.value %}
+        <td bgcolor="{{val.1.remark_color}}">{{val.1.value}} | {{val.1.category}}</td>
+        {% else %}
+        <td></td>
+        {% endif %}
+    {% endif %}
+
+    {% if row_wise_table.documents.2.uploaded_at %}
+        {% if val.2.value %}
+    <td bgcolor="{{val.2.remark_color}}">{{val.2.value}} | {{val.2.category}}</td>
+        {% else %}
+        <td></td>
+        {% endif %}
+    {% endif %}
+
+    {% if row_wise_table.documents.3.uploaded_at %}
+        {% if val.3.value %}
+        <td bgcolor="{{val.3.remark_color}}">{{val.3.value}} | {{val.3.category}}</td>
+        {% else %}
+        <td></td>
+        {% endif %}
+    {% endif %}
+
+    {% if row_wise_table.documents.4.uploaded_at %}
+        {% if val.4.value %}
+        <td bgcolor="{{val.4.remark_color}}">{{val.4.value}} | {{val.4.category}}</td>
+        {% else %}
+        <td></td>
+        {% endif %}
+    {% endif %}
+
+    {% if row_wise_table.documents.5.uploaded_at %}
+        {% if val.5.value %}
+        <td bgcolor="{{val.5.remark_color}}">{{val.5.value}} | {{val.5.category}}</td>
+        {% else %}
+        <td></td>
+        {% endif %}
+
+    {% endif %}
+
+    <td bgcolor="{{val.5.remark_color}}">{{val.5.remark}}</td>
+</tr>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</tbody>
+
+</table>
+</body>
+{{ row_wise_table.documents.all_category}}
+
+<br>
+<br>
+<a href="{% url 'document_upload' patient.pk %}"><h3><b>Upload Another Document</b></h3></a>
+
+<a href="{% url 'patient_profile' patient.pk %}"><h3><b>Return to Patient's Profile</b></h3></a>
+
+<a href="{% url 'home' %}"><b><h3>Return Home</h3></b></a>
+
+

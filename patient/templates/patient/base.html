@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="{% static 'patient/css/icon-font.css' %}" />
+    <link rel="stylesheet" href="{% static 'patient/css/style.css' %}" />
+    <title>TM Blood Report</title>
+  </head>
+  <body>
+    {% block message %}
+		{% endblock message %}
+
+		{% block content %}
+		{% endblock content %}
+    
+    <!-- ============================================================ -->
+    <!-- FOOTER START-->
+    <!-- ============================================================ -->
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <!-- ============= ADD LOGO HERE LATER=========== -->
+        <!-- <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width:
+          37.5em)"
+          />
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="full logo"
+          />
+        </picture> -->
+      </div>
+
+      <div class="row GB">
+        <div class="col-1-of-2 GB">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <!-- ========Add Links to the respective pages====== -->
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2 GB">
+          <p class="footer__copyright">
+            <!-- ==========Add company Link -->
+            Powered By <a href="#" class="footer__link">Trusting Minds</a>Pvt.
+            &copy; Trusting Minds
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER END
+    <!-- ============================================================ -->
+  </body>
+</html>

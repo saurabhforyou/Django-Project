@@ -1,0 +1,63 @@
+{% extends 'patient/base.html' %}
+ {% load widget_tweaks %} 
+ {% load static %}
+ {% block content %}
+ <!-- ============================================================ -->
+    <!-- HEADER_START-->
+    <!-- ============================================================ -->
+   <body bgcolor="#D6EAF8">
+    <header class="header GB">
+      <div class="header__messagebox GB">
+        <h1 class="heading-primary heading-primary--main">
+          TM Blood Report <br />
+          Manager
+        </h1>
+          <!-- form start -->
+        <div class="header__loginbox">
+          <!-- form start -->
+          <form method="post" class="form GB">{% csrf_token %}
+            <div class="form__group">
+              <!--<input
+                type="email"
+                class="form__input"
+                placeholder="Email Address"
+                id="eamil"
+                required
+              />-->
+              {% render_field form.username class+="form__input" placeholder='Email Address' type="text" name="email" id="eamil" required="required" %}
+              <label for="email" class="form__label">Email Address</label>
+            </div><br>
+            <div class="form__group GB">
+              <!--<input
+                type="password"
+                class="form__input"
+                placeholder="Password"
+                id="password"
+                required
+              />-->
+              {% render_field form.password class+="form__input" placeholder='Password' type="password" name="email" id="password" required="required" %}
+              <label for="password" class="form__label">Password</label>
+            </div><br>
+            <div class="form__group">
+              <button type='submit' class="btn btn--green">
+                Login 
+              </button>
+            </div>
+          </form>
+          <!-- form end -->
+        </div>   
+
+      </div>
+
+      	
+      <!-- ============================================================ -->
+      <!-- HEADER_END-->
+      <!-- ============================================================ -->
+    </header>
+    {% endblock content %}
+
+<form method="post">{% csrf_token %}
+{{form}}
+<button type="submit">Submit</button>
+</form>
+   </body>

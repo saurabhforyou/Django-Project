@@ -1,0 +1,25 @@
+<body bgcolor="#D6EAF8">
+<table>
+<thead>
+<tr>
+    <td>Label</td>
+    <td>Value</td>
+    <td>Unit</td>
+    <td>Edit</a></td>
+</tr>
+</thead>
+<tbody>
+    {% for result in all_testresult %}
+    <tr>
+    <td>{{result.label}}</td>
+    <td>{{result.value}}</td>
+    <td>{{result.unit}}</td>
+    <td><a href="{% url 'testresult_update' result.pk %}">edit</a></td>
+    </tr>
+
+    {% endfor %}
+</tbody>
+</table>
+
+</body>
+<a type='button' href="{% url 'generated_report' patient.pk %}"><h3><b>Submit</b></h3></a>

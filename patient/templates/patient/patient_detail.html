@@ -1,0 +1,78 @@
+
+
+{% load static %}
+{% load widget_tweaks %}
+{% block content %}
+<body bgcolor="#D6EAF8">
+<center><h1>Patient Profile Page</h1></center>
+<div class="patient_profile">
+   
+  <div class="story GB">
+        <div  class="row GB">
+          <div class="col-1-of-2 GB">
+            <figure class="story__shape">
+              <img 
+                src="../static/patient/img/customer.png" height="120"
+                alt="person on a tour"
+                class="story__img"
+              />
+              <!-- <figcaption class="story__caption">Patinet Name</figcaption> -->
+            </figure>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="u-margin-top-small">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                PATIENT NAME : {{patient.fname | title}} {{patient.lname | title}}
+              </h3>
+            </div>
+          </div>
+          <div class="col-1-of-2 GB">
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                ADDRESS : {{patient.address}}
+              </h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                ZIP : {{patient.zip}}
+              </h3>
+              
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        
+        <div>
+          <div class="col-1-of-3 GB">
+           <center><div style="float:left">
+              <a href="">
+                <img  src="../static/patient/img/add.png" height="120" alt="" class="profile__buttons-addimg"
+              /></a>
+              <div  class="GB">
+                <a href="{% url 'document_upload' patient.pk %}" class="btn-text"
+                  ><b><h3>Add New Report &rarr;</h3></b></a
+                >
+              </div>
+                
+            </div></center>
+          </div>
+          
+        <div  class="col-1-of-3 GB">
+            <center><div style="float:left" class="GB">
+             <img src="../static/patient/img/edit.png" height="120" alt="" class="profile__buttons-addimg" />
+              <div class="GB">
+               <a href="{% url 'generated_report' patient.pk %}" class="btn-text"
+                  ><b><h3>Generate Report </h3></b></a
+                >
+              </div>
+            </div></center>
+          </div>
+        </div>
+      
+      </div>
+    
+    </div>
+</body>
+{% endblock content %}
+
+
+
+
+

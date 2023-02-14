@@ -1,0 +1,16 @@
+.section-form {
+  background-image: url(../img/3.png);
+  //   background-color: $color-grey-light-2;
+  background-size: cover;
+  background-position: top;
+  //   height: 100vh;
+  &-heading {
+    max-width: $grid-width;
+    margin: 0rem auto;
+    color: $color-white;
+    h1 {
+      display: inline-block;
+      color: $color-white;
+    }
+  }
+}

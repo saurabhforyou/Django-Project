@@ -1,0 +1,14 @@
+models.py is used to make backend data
+and admin.py displays that data
+ when making a new dataa....always use python manage.py makemigrations
+followed by python manage.py migrate
+
+views.py is used to make logic and urls.py is used to link those logics
+it displays home page for frontend
+Crud: operations like updation, creation, delete
+
+get request- when a page is being loaded
+post request- when something is updated
+
+on google- django createview site
+

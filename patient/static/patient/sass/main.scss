@@ -1,0 +1,39 @@
+// ----abstracts_folder-import
+@import "./abstracts/function";
+@import "./abstracts/mixin";
+@import "./abstracts/variables";
+
+// ----base_folder-import
+@import "./base/base";
+@import "./base/animations";
+@import "./base/typography";
+@import "./base/utilities";
+
+// ----layout_folder-import
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/navigation";
+@import "./layout/footer";
+
+//------components-folder-import
+@import "./components/button";
+@import "./components/form";
+@import "./components/card";
+@import "./components/profile";
+// @import "./components/tableStyle";
+@import "./components/upload_report_table_style";
+
+// ----pages_folder-import
+@import "./pages/add_search.scss";
+@import "./pages/patient_form";
+@import "./pages/patient_profile";
+@import "./pages/upload_report_table";
+@import "./pages/view_all_report";
+@import "./pages/past_report";
+@import "./pages/upload_report_page";
+@import "./pages/all_patients_table";
+
+/* border for testing */
+.GB {
+  // border: 1px solid $testing-border-color;
+}
